@@ -110,9 +110,7 @@ in the function we need to define the data type becouse of in the
 tsconfig.json in that strict mode is true if it is false then not giving the data type declaration error
 
 # Event in angular
---> (click)=""
---> (keyup)=""
---> (keydown)=""
+--> (click)="", --> (keyup)="", --> (keydown)=""
 
 in this we providing the unique key to identify the same function to uae diferent input tag and any  other use
 
