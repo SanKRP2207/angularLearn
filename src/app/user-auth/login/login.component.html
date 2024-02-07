@@ -2,3 +2,7 @@
 <button (click)="getNames()">click Me</button>
 <button (click)="getName('name','seconame')">click Me2</button>
 
+<br />
+<br />
+<input type="text" #box (keyup)="funEvent(box.value)" placeholder="keyup event"  />
+<input type="text" #box1 (keydown)="funEvent(box1.value)"  placeholder="keydown event"/>

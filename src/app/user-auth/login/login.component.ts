@@ -19,5 +19,8 @@ export class LoginComponent {
     alert("san")
     alert("sandeep")
   }
+  funEvent(data:string){
+    console.log(data)
+  }
 
 }
